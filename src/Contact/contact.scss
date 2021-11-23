@@ -1,0 +1,35 @@
+.contact{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    form{
+        margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%);
+
+    .input-content{
+    }
+
+    .input-content input{
+        padding: 1em 2em;
+        margin-top: 5%;
+        border: 1px solid lightgray;
+
+    }
+
+    .input-content-message input{
+        margin-top: 5%;
+        padding: 3em 6em;
+        border: 1px solid lightgray;
+
+    }
+    .input-content-validation input{
+        margin-top: 5%;
+        padding: 1em 3em;
+        border: none;
+
+    }
+}
+}

@@ -1,0 +1,15 @@
+.home{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    &-title{
+        position: absolute;
+        font-size: 3em;
+        font-family: 'Nothing You Could Do', cursive;
+        margin-top: 20%;
+        margin-left: 10%;
+        color: white;
+    }
+}
