@@ -1,15 +1,35 @@
 .home{
-    position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    color: white;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'IM Fell French Canon SC', serif;
 
-    &-title{
-        position: absolute;
-        font-size: 3em;
-        font-family: 'Nothing You Could Do', cursive;
-        margin-top: 20%;
-        margin-left: 10%;
-        color: white;
+    .home-header{
+        height: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+
+        .logo{
+            
+        }
+
+        .home-list {
+            width: 40vw;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            align-items: center;
+
+            .home-item{
+                justify-content: space-between;
+
+            }
+        }
     }
 }
