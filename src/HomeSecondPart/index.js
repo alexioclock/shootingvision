@@ -1,13 +1,13 @@
 
 
-
+import { Link } from 'react-scroll';
 import './homeSecondPart.scss';
 
 function homeSecondPart() {
 
 
   return (
-   <div className="homeSecondPart">
+   <div className="homeSecondPart" id="homepage">
      <p>Portaits and Landscapes</p>
      <h2>Titre de la page</h2>
         <div className="wrapper">
@@ -18,6 +18,9 @@ function homeSecondPart() {
             <div class="five"><a href="#"></a>Instagram</div>
             <div class="six"><a href="#"></a></div>
         </div>
+        <Link to="home" spy={true} smooth={true} duration={1000}>
+        <p className="goback">Back to top</p>
+        </Link>
     </div>
   );
 }

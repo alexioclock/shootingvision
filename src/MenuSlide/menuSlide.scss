@@ -1,3 +1,5 @@
+
+
 .bm-item {
     display: inline-block;
   
@@ -20,13 +22,10 @@
     top: 36px;
   }
   
-  .bm-burger-button:hover{
-    color: aqua;
-  }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #dfe1eb;
+    background: black;
   }
   
   /* Position and sizing of clickable cross button */
@@ -66,3 +65,14 @@
   .react-burger-menu-btn :hover{
     color: #000;
   }
+
+
+@media screen and (min-width: 640px) {
+  .bm-burger-bars {
+    display: none;
+  }
+  .bm {
+    display: none;
+  }
+  
+}
