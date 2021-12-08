@@ -1,14 +1,14 @@
 .home{
     width: 100vw;
     height: 100vh;
-    color: white;
-    background-image: url('../assets/photos/IMG_3577.jpg');
+    color: black;
+    background-image: url('../assets/photos/homepage-2.jpg');
     background-size: cover;
     background-position: center;
     font-family: 'IM Fell French Canon SC', serif;
 
     .home-header{
-        height: 10vh;
+        height: 15vh;
         display: flex;
         justify-content: space-evenly;
         text-align: center;
@@ -31,5 +31,10 @@
 
             }
         }
+    }
+    .arrow{
+        position: absolute; /* postulat de départ */
+  bottom: 10%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
     }
 }
