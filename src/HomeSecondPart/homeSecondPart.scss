@@ -1,40 +1,102 @@
 .homeSecondPart{
     width: 100vw;
     height: 100vh;
+    color: white;
 
+  p{
+    margin-top: 3em;
+    font-family: 'IM Fell French Canon SC', serif;
+    color: gray;
+  }
 
+  h2{
+    font-size: 2em;
+    font-family: 'IM Fell French Canon SC', serif;
+    color: gray;
+
+  }
 .wrapper {
-    width: 70vw;
-    height: 70vh;
-    margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    max-width: 1300px;
+    width: 70%;
+    height: auto;
+    padding-top: 3em;
+    margin: auto;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(150px, auto);
+    align-content: space-evenly;
   }
   .one {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    cursor: pointer;
+
   }
   .two {
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
   }
   .three {
-    grid-column: 1;
-    grid-row: 2 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column:  3 / 5;
+    grid-row: 1 / 3;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+
   }
   .four {
-    grid-column: 3;
-    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
   }
   .five {
-    grid-column: 2;
-    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
   }
   .six {
-    grid-column: 3;
-    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-image: url('../assets/photos/IMG_3577.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
   }
+
 }
