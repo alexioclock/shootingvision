@@ -2,13 +2,14 @@ import './App.scss';
 import Home from './Home';
 import Contact from './Contact';
 import PortraitsPage from './PortraitsPage';
+import Footer from './Footer';
+
 
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import HomeSecondPart from './HomeSecondPart';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
           <Route path="/contact" exact element={<Contact />}/>
         </Routes>
     </BrowserRouter>
-    <HomeSecondPart />
+    <Footer />
     </div>
   );
 }
