@@ -2,17 +2,19 @@
     width: 100vw;
     height: 100vh;
     color: white;
+    background-color: rgb(25, 25, 25);
+
 
   p{
-    margin-top: 3em;
+    padding-top: 3em;
     font-family: 'IM Fell French Canon SC', serif;
-    color: gray;
+    color: bisque;
   }
 
   h2{
     font-size: 2em;
     font-family: 'IM Fell French Canon SC', serif;
-    color: gray;
+    color: bisque;
 
   }
 .wrapper {
@@ -26,6 +28,8 @@
     grid-gap: 15px;
     grid-auto-rows: minmax(150px, auto);
     align-content: space-evenly;
+    color: bisque;
+
   }
   .one {
     display: flex;

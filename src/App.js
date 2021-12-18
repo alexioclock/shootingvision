@@ -2,6 +2,7 @@ import './App.scss';
 import Home from './Home';
 import Contact from './Contact';
 import PortraitsPage from './PortraitsPage';
+import LandscapePage from './LandscapePage';
 import Footer from './Footer';
 
 
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />}/>
           <Route path="/portraits" exact element={<PortraitsPage />} />
-          <Route path="/landscapes" exact element={<PortraitsPage />}/>
+          <Route path="/landscapes" exact element={<LandscapePage />}/>
           <Route path="/contact" exact element={<Contact />}/>
         </Routes>
     </BrowserRouter>

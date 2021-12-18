@@ -1,16 +1,19 @@
 
     .home-header{
         height: 10vh;
+        color: bisque;
         display: flex;
         justify-content: space-evenly;
         text-align: center;
         flex-direction: row;
         align-items: center;
         font-family: 'IM Fell French Canon SC', serif;
+        background-color: rgb(25, 25, 25);
+
 
 
         .home-list {
-            width: 40vw;
+            width: 50vw;
             display: flex;
             justify-content: space-evenly;
             text-align: center;
