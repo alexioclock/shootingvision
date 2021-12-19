@@ -4,6 +4,7 @@ import portrait3 from '../assets/photos/portraits/portrait-3.jpg';
 import portrait4 from '../assets/photos/portraits/portrait-4.jpg';
 import portrait5 from '../assets/photos/portraits/portrait-5.jpg';
 import portrait6 from '../assets/photos/portraits/portrait-6.jpg';
+import portrait7 from '../assets/photos/portraits/portrait-7.jpg';
 
 const itemData = [
     {
@@ -28,6 +29,10 @@ const itemData = [
     },
     {
       img: portrait6,
+      title: 'Honey',
+    },
+    {
+      img: portrait7,
       title: 'Honey',
     },
   ];
