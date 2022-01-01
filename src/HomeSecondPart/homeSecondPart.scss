@@ -6,16 +6,17 @@
 
 
   p{
-    padding-top: 3em;
+    padding-top: 2em;
     font-family: 'IM Fell French Canon SC', serif;
     color: bisque;
+    font-size: 1.5em;
   }
 
   h2{
-    font-size: 2em;
+    font-size: 0.8em;
     font-family: 'IM Fell French Canon SC', serif;
     color: bisque;
-
+    padding-top: 1em;
   }
 .wrapper {
     display: grid;
@@ -100,6 +101,8 @@
 
   .goback{
     cursor: pointer;
+    height: 3em;
+    padding-bottom: 3em;
   }
 
 }

@@ -17,7 +17,7 @@ export const Header = () => {
     <MenuSlide />
     <div className="home-header">
             <div className="logo" data-aos="fade-right">
-              <LinkPage to="/">ShootingVision</LinkPage>
+              <LinkPage to="/" className="logo">S | V</LinkPage>
             </div>
           <div className="home-links">
             <ul className="home-list" data-aos="fade-left">
