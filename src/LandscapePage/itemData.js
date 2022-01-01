@@ -19,7 +19,6 @@ import photo16 from '../assets/photos/landscape/photo-16.jpg';
 import photo17 from '../assets/photos/landscape/photo-17.jpg';
 import photo18 from '../assets/photos/landscape/photo-18.jpg';
 import photo19 from '../assets/photos/landscape/photo-19.jpg';
-import photo20 from '../assets/photos/landscape/photo-20.jpg';
 import photo21 from '../assets/photos/landscape/photo-21.jpg';
 import photo22 from '../assets/photos/landscape/photo-22.jpg';
 import photo23 from '../assets/photos/landscape/photo-23.jpg';
@@ -130,10 +129,6 @@ const itemData = [
     },
     {
       img: photo17,
-      title: 'Camera',
-    },
-    {
-      img: photo20,
       title: 'Camera',
     },
     {

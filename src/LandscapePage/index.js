@@ -20,7 +20,7 @@ export const LandscapePage = () => {
         <>
           <Header/>
           <div className="landscape-page">
-          <Box sx={{ width: "100vw", minHeight: 829 }}>
+          <Box sx={{ width: "100vw", minHeight: 829 }} >
             <Masonry columns={{ xs: 1, sm: 3 }} spacing={1}>
               {itemData.map((item, index) => (
                 <Stack key={index}>

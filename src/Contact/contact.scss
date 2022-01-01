@@ -21,7 +21,7 @@
 
     .input-content-message input{
         margin-top: 5%;
-        padding: 3em 6em;
+        padding: 5em 6em;
         background-color: rgb(247, 236, 222);
         border-radius: 6px;
 
@@ -31,8 +31,13 @@
         padding: 1em 3em;
         border: none;
         cursor: pointer;
-        background-color: rgb(107, 176, 107);
+        background-color: rgb(103, 202, 103);
         border-radius: 10px;
+        color:white;
+        transition: 0.4s;
+    }
+    .input-content-validation input:hover{
+        transform: scale(0.98);
     }
 }
 }
