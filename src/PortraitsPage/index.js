@@ -9,11 +9,6 @@ import { useState } from 'react';
 
 export const PortraitsPage = () => {
 
-  const [loading, setLoading] = useState(true);
-
-  const isLoading = () => {
-    setLoading(false);
-  }
   return (
     <div className="portrait-page">
         <Header />

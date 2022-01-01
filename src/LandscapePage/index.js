@@ -6,11 +6,11 @@ import Stack from '@mui/material/Stack';
 import Masonry from '@mui/lab/Masonry';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 
 
-export const PortraitsPage = () => {
+export const LandscapePage = () => {
 
     useEffect(() => {
       Aos.init({duration:2000});
@@ -40,4 +40,4 @@ export const PortraitsPage = () => {
   );
 };
 
-export default PortraitsPage;
+export default LandscapePage;
