@@ -4,7 +4,6 @@ import "./menuSlide.scss";
 
 export default (props) => {
 
-
   return (
     <Menu   {...props}>
       <Link to="home" spy={true} smooth={true} duration={1000}>

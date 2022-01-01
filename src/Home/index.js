@@ -1,6 +1,5 @@
 
 
-import MenuSlide from '../MenuSlide';
 import './home.scss';
 import arrow from '../assets/icons/down-arrow.svg';
 import Header from '../Header';

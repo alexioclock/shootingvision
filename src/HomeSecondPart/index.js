@@ -16,9 +16,9 @@ function HomeSecondPart() {
         <div className="wrapper">
           <div   data-aos="fade-right" class="one" ><LinkPage to="/portraits">Portraits</LinkPage></div>
             <div  data-aos="fade-left" class="two " ><LinkPage to="/landscapes">Landscapes</LinkPage></div>
-            <div  data-aos="fade-down-left" class="three"><LinkPage to="#"></LinkPage>About</div>
-            <div  data-aos="fade-up"class="four"><LinkPage to="/contact"></LinkPage>Contact</div>
-            <div data-aos="fade-up-left" class="five" ><a target="_blank" href="https://www.instagram.com/shooting_vision/?hl=fr">Instagram</a></div>
+            <div  data-aos="fade-down-left" class="three"><LinkPage to="#">About</LinkPage></div>
+            <div  data-aos="fade-up"class="four"><LinkPage to="/contact">Contact</LinkPage></div>
+            <div data-aos="fade-up-left" class="five" ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/shooting_vision/?hl=fr">Instagram</a></div>
         </div>
         <Link to="home" spy={true} smooth={true} duration={1000}>
         <p className="goback">Back to top</p>

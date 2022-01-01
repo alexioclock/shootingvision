@@ -4,13 +4,12 @@ import itemData from './itemData';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Masonry from '@mui/lab/Masonry';
-import { useState } from 'react';
 
 
 export const PortraitsPage = () => {
 
   return (
-    <div className="portrait-page">
+    <div className="portrait-page" id="portrait">
         <Header />
         <Box sx={{ width: "100vw", minHeight: 829 }}>
           <Masonry columns={3} spacing={1}>
