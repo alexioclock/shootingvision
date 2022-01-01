@@ -1,6 +1,5 @@
 import './landscapePage.scss'
 import Header from '../Header';
-import Loader from '../Loader';
 import itemData from './itemData';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
@@ -12,12 +11,6 @@ import { useEffect, useState } from 'react';
 
 
 export const PortraitsPage = () => {
-
-const [loading, setLoading] = useState(true);
-
-const loader = () => {
-  setLoading(false);
-}
 
     useEffect(() => {
       Aos.init({duration:2000});
