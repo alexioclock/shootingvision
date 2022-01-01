@@ -32,6 +32,7 @@
 
   }
   .one {
+    height:10em;
     display: flex;
     align-items: center;
     grid-column: 1 / 2;
@@ -44,6 +45,7 @@
 
   }
   .two {
+    height:10em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +57,8 @@
     cursor: pointer;
 
   }
-  .three {
+  .three {    
+    height:20em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,6 +71,7 @@
 
   }
   .four {
+    height:20em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,6 +84,7 @@
 
   }
   .five {
+    height:10em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,5 +109,20 @@
   .homeSecondPart .wrapper{
     display: flex;
     flex-direction: column;
+  }
+  .homeSecondPart .one{
+    height: 5em;
+  }
+  .homeSecondPart .two{
+    height: 5em;
+  }
+  .homeSecondPart .three{
+    height: 5em;
+  }
+  .homeSecondPart .four{
+    height: 5em;
+  }
+  .homeSecondPart .five{
+    height: 5em;
   }
 }
