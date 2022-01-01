@@ -12,7 +12,7 @@ export const PortraitsPage = () => {
     <div className="portrait-page" id="portrait">
         <Header />
         <Box sx={{ width: "100vw", minHeight: 829 }}>
-          <Masonry columns={3} spacing={1}>
+          <Masonry  columns={{ xs: 1, sm: 3 }} spacing={1}>
             {itemData.map((item, index) => (
               <Stack key={index}>
                 <img

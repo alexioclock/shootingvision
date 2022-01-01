@@ -15,7 +15,7 @@ const MenuPage = (props) => {
       </LinkPage>
 
       <LinkPage to="/landscapes" spy={true} smooth={true} duration={1000}>
-        landscapes
+        Landscapes
       </LinkPage>
 
       <LinkPage to="/contact" spy={true} smooth={true} duration={1000}>

@@ -11,7 +11,7 @@ function HomeSecondPart() {
 }, []);
   return (
    <div className="homeSecondPart" id="homepage">
-     <p>Portaits and Landscapes photographies</p>
+     <p>Portraits and Landscapes photographies</p>
      <h2>shooting_vision</h2>
         <div className="wrapper">
           <div   data-aos="fade-right" class="one" ><LinkPage to="/portraits">Portraits</LinkPage></div>
