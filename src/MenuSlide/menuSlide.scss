@@ -6,7 +6,7 @@
     /* Our sidebar item styling */
     text-decoration: none;
     margin-bottom: 10px;
-    color: whitesmoke;
+    color: rgb(238, 226, 210);;
     transition: color 0.2s;
   }
   
@@ -18,16 +18,15 @@
     position: fixed;
     width: 40px;
     height: 20px;
-    right: 36px;
-    top: 36px;
+    right: 5em;
+    top: 1.4em;
   }
-  
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: black;
+    background: rgb(238, 226, 210);
   }
-  
+
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
@@ -58,7 +57,8 @@
   
   /* Styling of overlay */
   .bm-overlay {
-    background: yellowgreen
+    background: yellowgreen;
+    width:10%;
   }
   
   
@@ -66,13 +66,15 @@
     color: #000;
   }
 
+  .element{
+    width: 10vw;
+  }
+
 
 @media screen and (min-width: 640px) {
   .bm-burger-bars {
     display: none;
   }
-  .bm {
-    display: none;
-  }
+
   
 }

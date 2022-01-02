@@ -1,22 +1,24 @@
-
-
+import { useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import { Link } from 'react-scroll';
 import './homeSecondPart.scss';
+import { Link as LinkPage } from 'react-router-dom';
 
-function homeSecondPart() {
-
-
+function HomeSecondPart() {
+  useEffect(() => {
+    Aos.init({duration:2000});
+}, []);
   return (
    <div className="homeSecondPart" id="homepage">
-     <p>Portaits and Landscapes</p>
-     <h2>Titre de la page</h2>
+     <p>Portraits and Landscapes photographies</p>
+     <h2>shooting_vision</h2>
         <div className="wrapper">
-          <div class="one"><a width="100%" height="100%" href="#">Portraits</a></div>
-            <div class="two"><a href="#">Landscapes</a></div>
-            <div class="three"><a href="#"></a>About</div>
-            <div class="four"><a href="#"></a>Contact</div>
-            <div class="five"><a href="#"></a>Instagram</div>
-            <div class="six"><a href="#"></a></div>
+          <div   data-aos="fade-right" class="one" ><LinkPage to="/portraits">Portraits</LinkPage></div>
+            <div  data-aos="fade-left" class="two " ><LinkPage to="/landscapes">Landscapes</LinkPage></div>
+            <div  data-aos="fade-down-left" class="three"><LinkPage to="#">About</LinkPage></div>
+            <div  data-aos="fade-up"class="four"><LinkPage to="/contact">Contact</LinkPage></div>
+            <div data-aos="fade-up-left" class="five" ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/shooting_vision/?hl=fr">Instagram</a></div>
         </div>
         <Link to="home" spy={true} smooth={true} duration={1000}>
         <p className="goback">Back to top</p>
@@ -25,4 +27,4 @@ function homeSecondPart() {
   );
 }
 
-export default homeSecondPart;
+export default HomeSecondPart;

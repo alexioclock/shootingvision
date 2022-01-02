@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.scss';
+import Header from '../Header';
 
 
 
@@ -20,22 +21,25 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact">
-        <form ref={form} onSubmit={sendEmail}>
-            <div className="input-content">
-                <input type="text" name="user_name" placeholder="Nom"/>
-            </div>
-            <div className="input-content">
-                <input type="email" name="user_email" placeholder="Email"/>
-            </div>
-            <div className="input-content-message">
-                 <input type="text" name="message" placeholder="Votre Message" />
-            </div>
-            <div className="input-content-validation">
-                <input type="submit" value="Send" />
-            </div>
-        </form>
-    </div>
+      <>
+        <Header />
+        <div className="contact">
+            <form ref={form} onSubmit={sendEmail}>
+                <div className="input-content">
+                    <input type="text" name="user_name" placeholder="Name"/>
+                </div>
+                <div className="input-content">
+                    <input type="email" name="user_email" placeholder="Email"/>
+                </div>
+                <div className="input-content-message">
+                    <input type="text" name="message" placeholder="Your Message" />
+                </div>
+                <div className="input-content-validation">
+                    <input type="submit" value="Send" />
+                </div>
+            </form>
+        </div>
+    </>
   );
 };
 

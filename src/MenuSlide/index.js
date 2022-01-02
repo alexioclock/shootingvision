@@ -1,27 +1,28 @@
 import { stack as Menu } from "react-burger-menu";
-import { Link } from "react-scroll";
+import { Link as LinkPage } from 'react-router-dom';
 import "./menuSlide.scss";
 
-export default (props) => {
-
+const MenuSlide = (props) => {
 
   return (
-    <Menu   {...props}>
-      <Link to="home" spy={true} smooth={true} duration={1000}>
+    <Menu   {...props} >
+      <LinkPage to="/" spy={true} smooth={true} duration={1000}>
         Home
-      </Link>
+      </LinkPage>
 
-      <Link to="a-propos" spy={true} smooth={true} duration={1000}>
-        Portfolio
-      </Link>
+      <LinkPage to="/portraits" spy={true} smooth={true} duration={1000}>
+        Portraits
+      </LinkPage>
 
-      <Link to="technology" spy={true} smooth={true} duration={1000}>
-        Réserver
-      </Link>
+      <LinkPage to="/landscapes" spy={true} smooth={true} duration={1000}>
+        Landscapes
+      </LinkPage>
 
-      <Link to="contact" spy={true} smooth={true} duration={1000}>
+      <LinkPage to="/contact" spy={true} smooth={true} duration={1000}>
         Contact
-      </Link>
+      </LinkPage>
     </Menu>
-  );
+  )
 };
+
+export default MenuSlide;

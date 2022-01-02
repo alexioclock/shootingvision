@@ -1,4 +1,5 @@
 .home{
+    position: relative;
     width: 100vw;
     height: 100vh;
     color: black;
@@ -7,31 +8,8 @@
     background-position: center;
     font-family: 'IM Fell French Canon SC', serif;
 
-    .home-header{
-        height: 15vh;
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        flex-direction: row;
-        align-items: center;
 
-        .logo{
-            
-        }
 
-        .home-list {
-            width: 40vw;
-            display: flex;
-            justify-content: space-evenly;
-            text-align: center;
-            align-items: center;
-
-            .home-item{
-                justify-content: space-between;
-
-            }
-        }
-    }
     .arrow{
         position: absolute; /* postulat de départ */
         bottom: 10%; left: 50%; /* à 50%/50% du parent référent */

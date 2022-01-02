@@ -4,32 +4,40 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(25,25,25);
 
     form{
-        margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%);
+        margin-top: 40vh; /* poussé de la moitié de hauteur de viewport */
+        transform: translateY(-50%);
 
-    .input-content{
-    }
 
     .input-content input{
         padding: 1em 2em;
         margin-top: 5%;
-        border: 1px solid lightgray;
+        border-radius: 10px;
+        background-color: rgb(247, 236, 222);
 
     }
 
     .input-content-message input{
         margin-top: 5%;
-        padding: 3em 6em;
-        border: 1px solid lightgray;
+        padding: 5em 6em;
+        background-color: rgb(247, 236, 222);
+        border-radius: 6px;
 
     }
     .input-content-validation input{
         margin-top: 5%;
         padding: 1em 3em;
         border: none;
-
+        cursor: pointer;
+        background-color: rgb(103, 202, 103);
+        border-radius: 10px;
+        color:white;
+        transition: 0.4s;
+    }
+    .input-content-validation input:hover{
+        transform: scale(0.98);
     }
 }
 }
