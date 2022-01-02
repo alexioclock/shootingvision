@@ -9,7 +9,6 @@ import { Link } from 'react-scroll';
 import HomeSecondPart from '../HomeSecondPart';
 import { useEffect } from 'react';
 
-
 function Home() {
   useEffect(() => {
     Aos.init({duration:2000});
@@ -17,7 +16,7 @@ function Home() {
 
   return (
     <>
-      <div className="home" id="home" data-aos="fade"data-aos-duration="3000">
+      <div className="home" id="home" data-aos="fade"data-aos-duration="3000" >
         <Header />
           <Link to="homepage" spy={true} smooth={true} duration={1000}>
           <div className="arrow"><img src={arrow} width="40px" alt="navigation" /></div>

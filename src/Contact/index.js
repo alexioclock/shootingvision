@@ -26,13 +26,13 @@ export const Contact = () => {
         <div className="contact">
             <form ref={form} onSubmit={sendEmail}>
                 <div className="input-content">
-                    <input type="text" name="user_name" placeholder="Nom"/>
+                    <input type="text" name="user_name" placeholder="Name"/>
                 </div>
                 <div className="input-content">
                     <input type="email" name="user_email" placeholder="Email"/>
                 </div>
                 <div className="input-content-message">
-                    <input type="text" name="message" placeholder="Votre Message" />
+                    <input type="text" name="message" placeholder="Your Message" />
                 </div>
                 <div className="input-content-validation">
                     <input type="submit" value="Send" />

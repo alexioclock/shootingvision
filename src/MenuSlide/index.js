@@ -2,10 +2,10 @@ import { stack as Menu } from "react-burger-menu";
 import { Link as LinkPage } from 'react-router-dom';
 import "./menuSlide.scss";
 
-const MenuPage = (props) => {
+const MenuSlide = (props) => {
 
   return (
-    <Menu   {...props}>
+    <Menu   {...props} >
       <LinkPage to="/" spy={true} smooth={true} duration={1000}>
         Home
       </LinkPage>
@@ -25,4 +25,4 @@ const MenuPage = (props) => {
   )
 };
 
-export default MenuPage;
+export default MenuSlide;

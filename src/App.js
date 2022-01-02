@@ -11,12 +11,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import MenuSlide from './MenuSlide';
 
 function App() {
 
   return (
     <div className="App">
     <BrowserRouter>
+    <MenuSlide />
         <Routes>
           <Route path="/" exact element={<Home />}/>
           <Route path="/portraits" exact element={<PortraitsPage />} />

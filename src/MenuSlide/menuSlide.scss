@@ -18,8 +18,8 @@
     position: fixed;
     width: 40px;
     height: 20px;
-    right: 36px;
-    top: 25px;
+    right: 5em;
+    top: 1.4em;
   }
   
   /* Color/shape of burger icon bars */
@@ -57,7 +57,8 @@
   
   /* Styling of overlay */
   .bm-overlay {
-    background: yellowgreen
+    background: yellowgreen;
+    width:10%;
   }
   
   
@@ -65,13 +66,15 @@
     color: #000;
   }
 
+  .element{
+    width: 10vw;
+  }
+
 
 @media screen and (min-width: 640px) {
   .bm-burger-bars {
     display: none;
   }
-  .bm {
-    display: none;
-  }
+
   
 }
