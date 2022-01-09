@@ -21,7 +21,6 @@ export const Header = () => {
               <ul className="home-list" data-aos="fade-left">
                   <li className="home-item"><LinkPage to="/portraits"  >Portrait</LinkPage></li>
                   <li className="home-item"><LinkPage to="/landscapes">Landscape</LinkPage></li>
-                  <li className="home-item"><LinkPage to="/contact" >About</LinkPage></li>
                   <li className="home-item"><LinkPage to="/contact" >Contact</LinkPage></li>
               </ul>
             </div>
