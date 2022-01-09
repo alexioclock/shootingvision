@@ -80,10 +80,6 @@ const itemData = [
       title: 'Camera',
     },
     {
-      img: photo3,
-      title: 'Camera',
-    },
-    {
       img: photo2,
       title: 'Camera',
     },
